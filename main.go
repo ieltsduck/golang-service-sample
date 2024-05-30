@@ -1,6 +1,8 @@
 package main
 
 import (
+	"white-labelling-admin-starter/routes"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 )
@@ -11,13 +13,15 @@ func main() {
 	// Add logger middleware
 	app.Use(logger.New())
 
-	app.Get("/", func(c *fiber.Ctx) error {
-		return c.SendString("Hello GoFiber Project!")
-	})
+	// app.Get("/", func(c *fiber.Ctx) error {
+	// 	return c.SendString("Hello GoFiber Project!")
+	// })
 
-	app.Get("/about", func(c *fiber.Ctx) error {
-		return c.SendString("About Page")
-	})
+	// app.Get("/about", func(c *fiber.Ctx) error {
+	// 	return c.SendString("About Page")
+	// })
+
+	routes.Setup(app)
 
 	app.Listen(":3000")
 }
