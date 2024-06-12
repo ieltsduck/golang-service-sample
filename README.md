@@ -1,6 +1,6 @@
-## White-Labelling-Admin-Starter
+## Golang Service Sample
 
-A starter application for white labelling admin system implemented with Go/Fiber.
+A Web application sample implemented with Go/Fiber.
 
 ## Project Structure
 
