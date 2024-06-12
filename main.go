@@ -1,7 +1,7 @@
 package main
 
 import (
-	"white-labelling-admin-starter/routes"
+	"golang-service-sample/routes"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"

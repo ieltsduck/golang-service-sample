@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"white-labelling-admin-starter/handlers"
+	"golang-service-sample/handlers"
 
 	"github.com/gofiber/fiber/v2"
 )

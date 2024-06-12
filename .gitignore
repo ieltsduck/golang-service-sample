@@ -1,0 +1,55 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.cover
+*.cov
+
+# Output of the go build tool
+*.a
+*.o
+*.e
+
+# Archives
+*.zip
+*.tar.gz
+*.tgz
+*.bz2
+
+# Dependencies
+vendor/
+
+# Go workspace file
+go.work
+
+# Logs
+*.log
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go build cache
+go.sum
+go.mod
+
+# Nginx configurations and logs
+nginx.conf
+nginx.pid
+
+# Misc
+node_modules/
+DEPLOY.md
